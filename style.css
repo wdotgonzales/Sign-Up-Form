@@ -1,0 +1,261 @@
+*, *::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box1;
+    font-family: 'Righteous', cursive;
+
+}
+
+.hero-container{
+    display: flex;
+}
+.background-container{
+    width: 40%;
+    background-image: url(https://preview.redd.it/u8qn34fi9va51.jpg?auto=webp&s=b98286e19e79ba7ba1feeeb2d7247fb3e811127b);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-and-text-container{
+    width: 60%;
+    background-color: rgba(227, 227, 227, 0.76);
+    height: 100vh;
+}
+
+.logo-and-text{
+    color: white;
+    background: rgba(33, 33, 32, 0.50);
+    display: flex;
+
+    justify-content: center;
+    gap: 0.7em;
+
+    padding-block: 1em;
+
+    position: relative;
+    top: 37%;
+}
+
+.logo-and-text img{
+    width: 76px;
+}
+
+.logo-and-text h1{
+    margin-top: 0.9em;
+}
+
+/* Phase 2 */
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.white-bg-container{
+    background-color: white;
+    padding-top: 3em;
+    padding-bottom: 5em;
+
+    box-shadow: 4px 2px 5px;
+    
+}
+.form1-container {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.form1-container {
+    display: flex;
+    margin-left: 2.3em;
+}
+
+.form2-container{
+    display: flex;
+    margin-left: 2.3em;
+}
+
+.form1-container , .form2-container{
+    gap: 1em;
+}
+
+.form1-item1 , .form1-item2 , .form1-item3{
+    display: block;
+}
+
+.main-container p{
+    text-transform: uppercase;
+    
+    margin-left: 2em;
+}
+
+.main-container p {
+    font-size: 18px;
+}
+
+.main-container{
+    position: relative;
+    top: 14%;
+}
+
+
+button{
+    font-size: 20px;
+    margin-left: 1.5em;
+
+    color: white;
+
+    background-color: blue;
+    padding-block: 0.5em;
+    padding-inline: 0.8em;
+
+    border-radius: 15px;
+
+    margin-block: 1em;
+}
+
+input{
+    padding-block: 0.5em;
+    margin-top: 0.5em;
+}
+
+
+button:hover{
+    background-color: rgb(11, 11, 133);
+}
+
+
+
+@media(max-width:1815px){
+    .form1-container {
+        display: block;
+        margin-left: 2.3em;
+
+            
+    }
+    
+    .form2-container{
+        display: block;
+        margin-left: 2.3em;
+        padding-top: 1em;
+    }
+
+    form{
+        display: flex;
+    }
+}
+
+
+@media(max-width:1100px){
+    form{
+        display: flex;
+        /* border: 2px solid red; */
+    }
+
+
+    .hero-container{
+        display: block;
+    }
+
+    .background-container{
+        width: 100%;
+        
+        height: 40vh;
+    }
+    
+    .form-and-text-container{
+        width: 100%;
+        
+        height: 100vh;
+    }
+    .main-container{
+        position: relative;
+        top: 5%;
+    }
+
+    .logo-and-text{
+        position: relative;
+        top: 22%;
+    }
+
+    
+}
+
+
+@media(max-width:615px){
+    form{
+        display: block;
+        /* border: 2px solid red; */
+
+        width: 56%;
+        margin: 0 auto;
+
+        padding-top: 1em;
+    }
+
+    .main-container{
+        position: relative;
+        top: 5%;
+    }
+
+    .logo-and-text{
+        position: relative;
+        top: 22%;
+    }
+
+    .letsdothis{
+        text-align: center;
+    }
+
+    .white-bg-container{
+        padding-top: 1em;
+    }
+
+
+    .form1-item1 , .form1-item2 , .form2-item1 , .form2-item2{
+        padding-bottom: 1em;
+    }
+
+    .alreadyhaveaccount{
+        padding-bottom: 5em;
+        text-align: center;
+    }
+
+    .buttondiv{
+        padding-top: 1.2em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form-and-text-container{
+        width: 100%;
+        
+        height: 120vh;
+    }
+}
+
+@media(max-width:535px){
+    form{
+        display: block;
+        /* border: 2px solid red; */
+
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .alreadyhaveaccount{
+        padding-bottom: 5em;
+        text-align: left;
+    }
+
+    .buttondiv{
+        padding-top: 1.2em;
+        display: flex;
+        justify-content: left;
+    }
+
+    
+}

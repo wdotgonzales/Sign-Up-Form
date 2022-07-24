@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="hero-container">
+
+        <div class="background-container">
+            <div class="logo-and-text">
+                <div><img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt=""></div>
+                <div><h1>SIGN-UP FORM</h1></div>
+            </div>
+        </div>
+
+
+        <div class="form-and-text-container">
+            <div class="main-container">
+                <p>This is not a real online service! 
+                    You know you need something like 
+                    this in your life to help you realize your deepest dreams. 
+                    Sign up now to get started.</p> <br>
+                <p>You Know You Want To.</p>
+                <br>
+
+                <div class="white-bg-container">
+                    <p class="letsdothis">LET'S DO THIS!</p>
+
+                    <form action="" method="">
+                        <div class="form1-container">
+                            <div class="form1-item1">
+                                <div><label for="firstname">FIRST NAME</label></div>
+                                <div><input type="text" name="firstName" id="firstname" size="37"></div>
+                            </div>
+
+                            <div class="form1-item2">
+                                <div><label for="lastname">LAST NAME</label></div>
+                                <div><input type="text" name="lastName" id="lastname" size="37"></div>
+                            </div>
+
+                            <div class="form1-item3">
+                                <div><label for="email">EMAIL</label></div>
+                                <div><input type="email" name="email" id="email" size="37" required placeholder="example@address.com"></div>
+                            </div>
+                        </div>
+
+                        <div class="form2-container">
+                            <div class="form2-item1">
+                                <div><label for="phonenumber">PHONE NUMBER</label></div>
+                                <div><input type="text" name="phoneNumber" id="phonenumber" size="37" placeholder="ex: 09162637791"></div>
+                                <p id="phone_status"></p>
+                            </div>
+
+                            <div class="form2-item2">
+                                <div><label for="password">PASSWORD</label></div>
+                                <div><input type="password" name="password" id="password" size="37" required></div>
+                                <p id="password_length_status"></p>
+                            </div>
+
+                            <div class="form2-item3">
+                                <div><label for="confirmpassword">CONFIRM PASSWORD</label></div>
+                                <div><input type="password" name="confirmPassword" id="confirmpassword" size="37" required></div>
+                                <p id="password_status"></p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="buttondiv"><button type="submit" class="button" id="submit">CREATE ACCOUNT</button></div>
+                    </form>
+
+                <p class="alreadyhaveaccount">Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
